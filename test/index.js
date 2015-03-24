@@ -21,4 +21,20 @@ describe('metalsmith-markdown-remarkable', function () {
       });
   });
 
+  describe('use()', function () {
+
+    var classy = require('remarkable-classy');
+
+    it('should pass Remarkable plugins', function (done) {
+      metalsmith('test/fixtures/plugins')
+        .use(markdown().use(classy))
+        .build(function (err) {
+          if (err) { return done(err); }
+          assertDirEqual('test/fixtures/plugins/expected', 'test/fixtures/plugins/build');
+          done();
+        });
+    });
+
+  });
+
 });

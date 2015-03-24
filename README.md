@@ -14,7 +14,7 @@ npm install metalsmith-markdown-remarkable
 
 ## CLI usage
 
-Add `metalsmith-markdown-remarkable` to your `metalsmith.json` plugins with any [Remarkable options](https://www.npmjs.com/package/remarkable#options) options you want:
+Add `metalsmith-markdown-remarkable` to your `metalsmith.json` plugins with any [Remarkable options](https://www.npmjs.com/package/remarkable#options) you want:
 
 ```json
 {
@@ -41,6 +41,20 @@ metalsmith.use(markdown('full', {
   typographer: true,
   quotes: '«»‘’'
 }));
+```
+
+### Passing Remarkable plugins
+
+The plugin also defines a `use()` function, which passes whatever you give it to Remarkable's own `use()`:
+
+```js
+metalsmith.use(markdown().use(remarkablePlugin));
+```
+
+If you have multiple Remarkable plugins, just chain calls:
+
+```js
+metalsmith.use(markdown().use(plugin1).use(plugin2));
 ```
 
 
