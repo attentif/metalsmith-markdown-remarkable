@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "remarkable": "^1.7.1"
+    "remarkable": "^2.0.0"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.1.0",
     "metalsmith": "^2.3.0",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.1",
     "remarkable-classy": "0.0.1"
   }
 }
