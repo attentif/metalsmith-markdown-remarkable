@@ -12,6 +12,16 @@ npm install metalsmith-markdown-remarkable
 ```
 
 
+### Warning: Remarkable version
+
+If you care about what Remarkable is bundled herein, please note:
+
+- v1.* of this plugin now use Remarkable 1.*
+- v2.* use Remarkable 2.*
+
+(Remarkable was originally – and carelessly – upgraded to 2.0 in v1.0.1, now deprecated. Thanks to @jja for the heads-up.)
+
+
 ## CLI usage
 
 Add `metalsmith-markdown-remarkable` to your `metalsmith.json` plugins with any [Remarkable options](https://www.npmjs.com/package/remarkable#options) you want:
