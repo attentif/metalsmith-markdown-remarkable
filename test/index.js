@@ -1,6 +1,6 @@
 /* global describe, it */
 
-const assertDirEqual = require('assert-dir-equal'),
+var assertDirEqual = require('assert-dir-equal'),
     metalsmith = require('metalsmith'),
     markdown = require('..');
 
@@ -11,7 +11,8 @@ describe('metalsmith-markdown-remarkable', function () {
       .use(markdown('full', {
         html: true,
         langPrefix: '',
-        typographer: true
+        typographer: true,
+        linkify: true
       }))
       .build(function (err) {
         if (err) { return done(err); }
