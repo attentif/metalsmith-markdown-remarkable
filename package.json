@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-markdown-remarkable",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Metalsmith plugin to convert markdown files via Remarkable.",
   "repository": "git://github.com/attentif/metalsmith-markdown-remarkable.git",
   "author": "Simon Goumaz <simon@attentif.ch>",
@@ -10,8 +10,8 @@
     "test": "mocha --reporter spec"
   },
   "dependencies": {
-    "debug": "^4.1.1",
-    "remarkable": "^2.0.0"
+    "debug": "^4.3.1",
+    "remarkable": "^2.0.1"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.1.0",
