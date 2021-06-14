@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-markdown-remarkable",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A Metalsmith plugin to convert markdown files via Remarkable.",
   "repository": "git://github.com/attentif/metalsmith-markdown-remarkable.git",
   "author": "Simon Goumaz <simon@attentif.ch>",
