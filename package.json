@@ -10,13 +10,13 @@
     "test": "mocha --reporter spec"
   },
   "dependencies": {
-    "debug": "^4.3.1",
+    "debug": "^4.3.4",
     "remarkable": "^2.0.1"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.1.0",
-    "metalsmith": "^2.3.0",
-    "mocha": "^7.1.2",
-    "remarkable-classy": "0.0.1"
+    "metalsmith": "^2.4.2",
+    "mocha": "^9.2.2",
+    "remarkable-classy": "^0.0.1"
   }
 }
