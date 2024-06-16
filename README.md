@@ -1,10 +1,11 @@
+> [!WARNING]
+> This repository is no longer maintained.
+
 # metalsmith-markdown-remarkable
 
 A Metalsmith plugin to convert markdown files via [Remarkable](https://www.npmjs.com/package/remarkable). Derived from [metalsmith-markdown](https://www.npmjs.com/package/metalsmith-markdown).
 
 [![npm](https://img.shields.io/npm/v/metalsmith-markdown-remarkable.svg)](https://www.npmjs.com/package/metalsmith-markdown-remarkable)
-
-**This repository is [looking for a maintainer](https://github.com/attentif/metalsmith-markdown-remarkable/issues/5).**
 
 
 ## Installation
